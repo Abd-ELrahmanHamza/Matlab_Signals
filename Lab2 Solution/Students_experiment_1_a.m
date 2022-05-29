@@ -28,7 +28,7 @@ legend("x[n]");
 title("x[n] = delta(n-1) y[n]=x[n]-x[n-1]-x[n-2]");
 
 
-% delta(n)   y[n]=x[n]-x[n-1]-x[n-2]
+% delta(n)*delta(n-1)   y[n]=x[n]-x[n-1]-x[n-2]
 nx1 = [-10:10];
 x111 = x1 + 2*x11;
 x222 = x2 + 2*x22;
