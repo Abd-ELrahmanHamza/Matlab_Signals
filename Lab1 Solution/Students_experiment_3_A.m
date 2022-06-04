@@ -13,7 +13,7 @@ legend("x[n]");
 title("sinusoidal signal (for one period only) with period = 10");
 Etot=sum(x.^2); %this is the energy of the whole signal
 Ptot=Etot/length(x); % this is the power
-fprintf("Total Enegry = %f\n",Etot);
+fprintf("Total Energy = %f\n",Etot);
 fprintf("Total Power  = %f\n",Ptot);
 
 
@@ -29,7 +29,7 @@ legend("x1[n]");
 title("Signal from n= 0 -> 12");
 Etot=sum(x1.^2); %this is the energy of the whole signal
 Ptot=Etot/length(x1); % this is the power
-fprintf("Total Enegry = %f\n",Etot);
+fprintf("Total Energy = %f\n",Etot);
 fprintf("Total Power  = %f\n",Ptot);
 
 
@@ -43,8 +43,8 @@ grid on;
 xlabel('t');
 ylabel('x2[n2]');
 legend("x2[n2]");
-title("Signal from n= 0 -> 12");
+title("Signal from n= 0 -> 1002");
 Etot=sum(x2.^2); %this is the energy of the whole signal
 Ptot=Etot/length(x2); % this is the power
-fprintf("Total Enegry = %f\n",Etot);
+fprintf("Total Energy = %f\n",Etot);
 fprintf("Total Power  = %f\n",Ptot);
